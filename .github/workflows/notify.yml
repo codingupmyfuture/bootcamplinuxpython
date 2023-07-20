@@ -1,0 +1,37 @@
+name: Notificar nuevo issue en Telegram
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          node-version: '16'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Notify Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_GROUP_ID: ${{ secrets.TELEGRAM_GROUP_ID }}
+        run: |
+          python .github/workflows/send_telegram_message.py  \
+          '${{ secrets.TELEGRAM_BOT_TOKEN }}' \
+          '${{ secrets.TELEGRAM_GROUP_ID }}' \
+          '${{ github.event.issue.user.login }}' \
+          '${{ github.event.issue.title }}' \
+          '${{ github.event.issue.html_url }}' \
+          '${{ github.event.issue.number }}' \
+          "${{ join(github.event.issue.labels.*.name, ', ') }}"
