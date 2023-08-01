@@ -21,7 +21,7 @@
 - [Estructura repositorio](#informacion-repositorio)
 - [Colaboradores o instructores](#colaboradores-o-instructores)
 - [Licencia](#licencia)
-
+- [Recomendaciones](#recomendaciones)
 
 ## Requisitos
 
@@ -70,3 +70,6 @@ El bootcamp es creado y presentado por el instructor **Luis Fernando Vásquez Ve
 ## Licencia
 
 El contenido de este bootcamp se proporciona bajo la Licencia **MIT**. Consulta el archivo de licencia almcenado en esta repositorio para mas información.
+
+
+## Recomendaciones
