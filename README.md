@@ -21,7 +21,7 @@
 - [Estructura repositorio](#informacion-repositorio)
 - [Colaboradores o instructores](#colaboradores-o-instructores)
 - [Licencia](#licencia)
-
+- [Recomendaciones](#recomendaciones)
 
 ## Requisitos
 
@@ -70,3 +70,10 @@ El bootcamp es creado y presentado por el instructor **Luis Fernando Vásquez Ve
 ## Licencia
 
 El contenido de este bootcamp se proporciona bajo la Licencia **MIT**. Consulta el archivo de licencia almcenado en esta repositorio para mas información.
+
+
+## Recomendaciones
+
+Para no tener ningún problema con el curso y la asistencia, por favor asegúrese que la versión sea superior a **5.2.16**
+
+![zoom version](https://github.com/codingupmyfuture/bootcamplinuxpython/blob/main/contenido.curso/000.imagenes/001.zoom.version.png)

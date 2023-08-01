@@ -1,0 +1,8 @@
+es:
+    https://www.youtube.com/watch?v=7eeHBaPnUGM&ab_channel=Daniel
+
+    Nota: hasta minuto 5 es todo lo que necesitan, lo demas es para que aprendan como funciona
+          la herramienta
+
+en:
+    https://www.youtube.com/watch?v=6HWw7rhwvtY&ab_channel=GitHub
