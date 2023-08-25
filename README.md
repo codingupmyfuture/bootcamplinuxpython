@@ -2,8 +2,10 @@
 
 
 <p><br>
-
-[![Example](https://github-stats-alpha.vercel.app/api?username=codingupmyfuture "Example")](https://github-stats-alpha.vercel.app/api?username=codingupmyfuture "Example")
+<img width="400" src="https://github-readme-stats.vercel.app/api?username=codingupmyfuture&count_private=true&show_icons=true&theme=react" />  <img width="425" src="https://streak-stats.demolab.com/?user=codingupmyfuture&theme=react" />
+<img width="830" src="https://github-readme-activity-graph.vercel.app/graph?username=codingupmyfuture&bg_color=21232a&color=a8eeff&line=61dafb&point=f0fcff&area=true&hide_border=false" />
+<a href="https://github.com/codingupmyfuture/github-stats">
+</a>
 
 **Coding Up My Future** es un bootcamp diseñado con el objetivo de generar un impacto social al ayudar a personas, sin importar sus condiciones sociales, a ingresar al mundo de las tecnologías de la información. El curso se enfoca en proporcionar una base sólida de conocimientos teóricos y prácticos, distribuidos en **80 horas para Python y 20 para Linux, para un total de 100 horas de estudio**. Los objetivos de este Bootcam son:
 
