@@ -1,6 +1,6 @@
 def suma(numero1: int, numero2: int, demo: bool = False) -> int:
-    """esta función permite realizar la sima de dos numeros
-    los cuales son enteros, etc etc
+    """esta función permite realizar la suma de dos números
+    los cuales son enteros, etc, etc, etc
 
     :param numero1: número 1
     :type numero1: int
