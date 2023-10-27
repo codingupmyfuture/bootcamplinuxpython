@@ -70,7 +70,7 @@ OtherError
 1. Para mirar la ayuda
 `pydoc -h`
 
-2. Para generar la documentación de un módulo específico
+2. Para generar la documentación de un módulo específico en texto
 `pydoc mymodule `
 
 ejemplo proyecto
@@ -80,11 +80,11 @@ ejemplo proyecto
 solo usuarios Linux, redireccionamiento
 `pydoc documentacion.docs > docs/clase.docs.txt`
 
-para generar un servidor local
+3. para generar un servidor local
 `pydoc -p 8080`
 
+4. para generar la documentación de un módulo en HTML
 `pydoc -w mymodule`
 
 ejemplo proyecto
-
-`pydoc documentacion.docs`
+`pydoc -w documentacion.docs`
