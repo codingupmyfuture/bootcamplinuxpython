@@ -1,7 +1,7 @@
 from decoradores_clases.decoradores import MalaPractica, BuenaPractica
 
 
-print("imprimiendo tipo java - no recomendado".center(50, "*"))
+print("imprimiendo tipo Java - NO recomendado".center(50, "*"))
 malaPractica: MalaPractica = MalaPractica()
 
 # setter

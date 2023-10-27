@@ -4,7 +4,7 @@ class MalaPractica:
         getter: obtener un atributo de la clase
         setter: asignación
         
-        cuando se usa esto, cuando quiero de manera pública signar un valor a un atrinuto pridados
+        cuándo se usa esto? Cuando quiero de manera pública asignar un valor a un atributo privado
     """
     def __init__(self):
         self.__nombre: str = None
@@ -19,9 +19,8 @@ class BuenaPractica:
     """ pasos
     
         1. el getter y el setter se llaman igual
-        2. al getter se le pone  @property
+        2. al getter se le pone el decorador @property
         3. al setter se le llama getter.setter
-        
     """
     
     def __init__(self):
@@ -34,4 +33,3 @@ class BuenaPractica:
     @nombre.setter # este es el setter o MalaPractica.set_nombre
     def nombre(self, nombre: str) -> None:
         self.__nombre = nombre
-

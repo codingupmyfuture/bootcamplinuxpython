@@ -8,14 +8,14 @@ CLASSES
         AutoDoc
     
     class AutoDoc(builtins.object)
-     |  esta es una clase que les ayudara a tecnicas secretas de documentación
-     |  __author__ = "Organización que creo el script"
+     |  esta es una clase que les ayudará a conocer técnicas secretas de documentación
+     |  __author__ = "Organización que creó el script"
      |  __copyright__ = "Mensaje de copyright"
-     |  __license__ = "Indica quienes pueden usar la implementación"
+     |  __license__ = "Indica quiénes pueden usar la implementación"
      |  __credits__= "Dedicatorias(en caso de aplicar de la solución)"
-     |  __version__ = "versión del desarrollo"
-     |  __maintainer__ = "usuario creador del desarrollo"
-     |  __email__ = "email del usuario de creación del desarrollo"
+     |  __version__ = "Versión del desarrollo"
+     |  __maintainer__ = "Usuario creador del desarrollo"
+     |  __email__ = "Email del usuario de creación del desarrollo"
      |  __status__ = "Indica el ambiente o estado en el que se encuentra el desarrollo"
      |  
      |  Methods defined here:
