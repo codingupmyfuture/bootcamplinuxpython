@@ -1,0 +1,18 @@
+class Demo:
+    
+    def saludar(self, nombre: str) -> None:
+        """metodo que se accede por instancia para saliuar
+
+        :param nombre: nombre de la persona a saludar
+        :type nombre: str
+        """
+        print(f"saludo a: {nombre}")
+        
+    @staticmethod
+    def saludar_estaticamente(nombre: str) -> None:
+        """metodo que se accede por instancia para saliuar
+
+        :param nombre: nombre de la persona a saludar
+        :type nombre: str
+        """
+        print(f"saludo a: {nombre}")
