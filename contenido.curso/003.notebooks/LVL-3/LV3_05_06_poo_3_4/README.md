@@ -1,12 +1,12 @@
 # NOTAS
 
 ## DOCUMENTACIÓN
-* recuerden que para librerias, paquetes y módulos, no debe llevar tildes
+* recuerden que para librerías, paquetes y módulos, los nombres no deben llevar tildes
 * los comandos de import tambien funcionan con atributos
 
 ## DOCUMENTACIÓN
 
-documentación para funciones & metodos `docsStrings`
+documentación para funciones & métodos `docsStrings`
 
 ### -reST
 ```python
@@ -65,3 +65,26 @@ OtherError
     when an other error
 """
 ```
+## PYDOC
+
+1. Para mirar la ayuda
+`pydoc -h`
+
+2. Para generar la documentación de un módulo específico
+`pydoc mymodule `
+
+ejemplo proyecto
+
+`pydoc documentacion.docs`
+
+solo usuarios Linux, redireccionamiento
+`pydoc documentacion.docs > docs/clase.docs.txt`
+
+para generar un servidor local
+`pydoc -p 8080`
+
+`pydoc -w mymodule`
+
+ejemplo proyecto
+
+`pydoc documentacion.docs`
