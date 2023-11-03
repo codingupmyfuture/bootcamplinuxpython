@@ -3,7 +3,7 @@
 from especiales.me_format import MiNumero
 
 print("\n ------------ \n")
-print("[LVL1] normal lo que conocemos")
+print("[LVL1] normal, lo que conocemos")
 print("modo elemental de formato {}".format("str.format(..)"))
 
 
@@ -22,7 +22,7 @@ print( f'default --> {resultado_default}')
 
 
 print("\n ------------ \n")
-print("[LVL 1.5] usando el metodos normales")
+print("[LVL 1.5] usando los métodos normales")
 
 
 resultado_binario = numero.formato('hex')

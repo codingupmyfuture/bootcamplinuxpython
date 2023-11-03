@@ -12,5 +12,5 @@ class Persona:
         self.edad = edad
     
     def __str__(self) -> str:
-        print("se ejecuto __str__")
+        print("se ejecutó __str__")
         return f"__str__ ||| {Persona.__name__}(NOMBRE= {self.nombre},EDAD={self.edad})"
