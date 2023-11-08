@@ -1,7 +1,7 @@
 
 class BootCampNivel1(Exception):
     """cuando se quieran crear excepciones personalizadas
-        la clase siempre debe de heredar de Exception
+        la clase siempre debe heredar de Exception
 
     :param Exception: _description_
     :type Exception: _type_
@@ -33,7 +33,7 @@ class BootCampNivel3(Exception):
             "MESSAGE_ERROR": self.__mensaje,
             "ERROR_LEVEL": self.__nivel,
             "ERROR_FORMAT": f"""
-            el codigo del error que se presento es:
+            el código del error que se presentó es:
             
             COD: {self.__codigo_error}
             LVL: {self.__codigo_error}

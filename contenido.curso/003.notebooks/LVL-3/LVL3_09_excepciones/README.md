@@ -1,15 +1,15 @@
 # EXCEPCIONES
 
-una interrupción bruzca a la ejecución de mi programa (profundizar). Estás excepciones, en un projecto grande, pueden generar la perdida de:
+una interrupción brusca a la ejecución de mi programa (profundizar). Estas excepciones, en un proyecto grande, pueden generar la pérdida de:
 
 * Información
-* dinero
+* Dinero
 * De su empleo
 * De cliente
-* ETC
+* ETC.
 
 ## GENERALES 
-Como se manejan las excepciones en python:
+Cómo se manejan las excepciones en Python:
 
 ```python
 #estructura de excepciones
@@ -17,20 +17,20 @@ Como se manejan las excepciones en python:
 try: # obligatorio
   
   #1/0
-  print("1. bloque principal de codigo a evaluar")
+  print("1. Bloque principal de código a evaluar")
 except: # obligatorio
-  print("-1. bloque de captura de excepción, nota : permite multiple except")
+  print("-1. Bloque de captura de excepción. Nota: permite múltiple except")
 else: # opcionales
-  print("2. bloque despues de terminado bloque 1")
+  print("2. Bloque después de terminado el bloque 1")
 finally: # opcionales
-  print("3. bloque que siempre se ejecuta")
+  print("3. Bloque que siempre se ejecuta")
 
 ```
 ## ASSERTS 
 
-El assert es una instruccion de Python que te permite definir 
-condiciones que deban cumplirse siempre. En caso que la expresion 
-booleana sea True assert no hace nada y en caso de False dispara una excepcion
+El assert es una instrucción de Python que te permite definir 
+condiciones que deben cumplirse siempre. En caso de que la expresión 
+booleana sea True assert no hace nada y en caso de False dispara una excepción
 
 
 ```python
