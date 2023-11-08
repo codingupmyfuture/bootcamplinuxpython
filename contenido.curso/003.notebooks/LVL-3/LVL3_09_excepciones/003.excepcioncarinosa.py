@@ -9,7 +9,6 @@ try:
         nivel="NO_BLOQUEAN"
     )
 except BootCampNivel3 as lucho_error:
-    print(f"args                      : --> {lucho_error.args}")
     print(f"el error que genero fue   : --> {lucho_error}")
     print(f"tipo de dato lucho_error  : --> {type(lucho_error)}")
     print(f'errores como diccionario  : --> {lucho_error._error["COD_ERROR"]}')
