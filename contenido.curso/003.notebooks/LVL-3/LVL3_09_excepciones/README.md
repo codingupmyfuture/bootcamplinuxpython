@@ -8,7 +8,7 @@ una interrupción bruzca a la ejecución de mi programa (profundizar). Estás ex
 * De cliente
 * ETC
 
-
+## GENERALES 
 Como se manejan las excepciones en python:
 
 ```python
@@ -25,4 +25,22 @@ else: # opcionales
 finally: # opcionales
   print("3. bloque que siempre se ejecuta")
 
+```
+## ASSERTS 
+
+El assert es una instruccion de Python que te permite definir 
+condiciones que deban cumplirse siempre. En caso que la expresion 
+booleana sea True assert no hace nada y en caso de False dispara una excepcion
+
+
+```python
+# sin mensaje
+x = 1
+assert x == 2
+```
+
+```python
+# con mensjae
+x = 1
+assert x == 2, "el valor no es igual a 1"
 ```
