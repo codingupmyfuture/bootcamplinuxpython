@@ -1,7 +1,7 @@
 
 x: int = 1
-# cuando es verdadero, no pasa nada
+# cuando es verdadero no pasa nada
 assert x == 1
 
 
-print("no paso nadaaaa!!")
+print("no pasó nadaaaa!")

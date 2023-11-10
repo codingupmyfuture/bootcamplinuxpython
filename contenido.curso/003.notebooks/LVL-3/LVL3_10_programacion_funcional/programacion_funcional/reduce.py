@@ -21,7 +21,7 @@ en MAYÚSCULAS y otras en minúsculas. Repetir palabras como Prueba.
 Repetir palabras como PRUEBa.
 """
 
-# PASO 1: definir funcion (en este caso, declarada)
+# PASO 1: definir función (en este caso es declarada)
 def contador_palabras(acumulador: dict, palabra: str) -> dict:
     acumulador[palabra] = acumulador.get(palabra, 0) +1
     return acumulador
@@ -30,7 +30,7 @@ def contador_palabras(acumulador: dict, palabra: str) -> dict:
 # PASO 2: estandarizar 
 mensaje = mensaje.lower().replace("ú", "u").replace(".", "")
 
-# PASO 3: partir las palabras | manejar palabras separadas en una lista
+# PASO 3: partir/dividir las palabras | manejar palabras separadas en una lista
 lista_palabras = mensaje.split()
 
 # PASO 4: contador de palabras
