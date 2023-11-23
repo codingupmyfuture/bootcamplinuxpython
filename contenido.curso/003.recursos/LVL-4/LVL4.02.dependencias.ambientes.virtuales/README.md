@@ -15,6 +15,6 @@ Al iniciar un proyecto informático, es crucial considerar varios aspectos clave
 
 * [AMBIENTES VIRTUALES](https://github.com/codingupmyfuture/bootcamplinuxpython/blob/main/contenido.curso/003.recursos/LVL4.02.dependencias.ambientes.virtuales/003.AMBIENTES.VIRTUALES.md?plain=1)
 
-## Tips para el Trabajo Final
+## Tips para el trabajo final
 
 1. 
