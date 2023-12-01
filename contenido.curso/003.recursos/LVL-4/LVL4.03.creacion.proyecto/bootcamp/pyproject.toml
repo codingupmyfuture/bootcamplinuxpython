@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "demo"
+version = "1.1.0"
+description = ""
+authors = ["luisvasv-teck <luis.vergara@teck.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://ejemplo.com"
+repository = "https://github.com/usuario/repo"
+documentation = "https://ejemplo.com/docs"
+keywords = ["python", "ejemplo", "proyecto"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.3"
+
+
+[tool.poetry.group.desarrolladore.dependencies]
+flake8 = "^6.1.0"
+
+
+[tool.poetry.group.elenadetroya.dependencies]
+mypy = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

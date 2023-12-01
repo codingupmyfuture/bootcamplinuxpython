@@ -21,5 +21,5 @@ ruta: str = os.path.join("a","b","c") # *
 print(f"rutas concatenadas #1        : {ruta}")
 
 ruta_2: str = f"{os.sep}".join("a,b,c".split(","))
-print(f"rutas concatenadas #2        : {ruta}")
+print(f"rutas concatenadas #2        : {ruta_2}")
 

@@ -9,12 +9,15 @@ Al iniciar un proyecto informático, es crucial considerar varios aspectos clave
 
 
 
-* [RUTAS Y VARIABLES DE ENTORNO](https://github.com/codingupmyfuture/bootcamplinuxpython/blob/main/contenido.curso/003.recursos/LVL-4LVL4.02.dependencias.ambientes.virtuales/001.RUTAS.ENVARIABLES.md?plain=1)
+* [RUTAS Y VARIABLES DE ENTORNO](https://github.com/codingupmyfuture/bootcamplinuxpython/blob/main/contenido.curso/003.recursos/LVL-4/LVL4.02.dependencias.ambientes.virtuales/001.RUTAS.ENVARIABLES.md)
 
-* [LIBRERÍAS](https://github.com/codingupmyfuture/bootcamplinuxpython/blob/main/contenido.curso/003.recursos/LVL4.02.dependencias.ambientes.virtuales/002.LIBRERIAS.md?plain=1)
+* [LIBRERÍAS](https://github.com/codingupmyfuture/bootcamplinuxpython/blob/main/contenido.curso/003.recursos/LVL-4/LVL4.02.dependencias.ambientes.virtuales/002.LIBRERIAS.md)
 
-* [AMBIENTES VIRTUALES](https://github.com/codingupmyfuture/bootcamplinuxpython/blob/main/contenido.curso/003.recursos/LVL4.02.dependencias.ambientes.virtuales/003.AMBIENTES.VIRTUALES.md?plain=1)
+* [AMBIENTES VIRTUALES](https://github.com/codingupmyfuture/bootcamplinuxpython/blob/main/contenido.curso/003.recursos/LVL-4/LVL4.02.dependencias.ambientes.virtuales/003.AMBIENTES.VIRTUALES.md)
 
-## Tips para el Trabajo Final
+## **TIPS TRABAJO FINAL**
 
-1. 
+1. El manejo de rutas debe soportar multi-plataforma
+2. Se deben manejar ambientes virtuales para el manejo de dependencias
+3. Se deben manejar dependencias en archivos `.txt` o `.toml` (se verá mas adelante)
+4. Se debe contar con un `readme` que contenga información relevante al proyecto, configuración, etc.

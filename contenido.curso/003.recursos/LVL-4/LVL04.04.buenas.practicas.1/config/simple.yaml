@@ -1,0 +1,9 @@
+nombre: Bootcamp
+edad: 1
+valido: true
+vocales:
+  - a
+  - e
+  - i
+  - o
+  - u

@@ -1,4 +1,7 @@
-# Uso de Scrum en el Desarrollo de Software
+<img src="https://i.postimg.cc/cCjTSn8r/ss-cumf.png" alt="reporte" border="0"/>
+
+
+# USO DE SCRUM EN EL DESARROLLO DE SOFTWARE
 
 ## Importancia de Scrum
 
@@ -23,7 +26,7 @@ Scrum brinda transparencia en el progreso del proyecto a través de artefactos c
 Este código en formato Markdown se puede guardar en un archivo llamado README.md en
 
 
-## Tips para el Trabajo Final
+## **TIPS TRABAJO FINAL**
 
 Para el proyecto final, se espera que los participantes se organicen siguiendo esta metodología, con el propósito de comprender en profundidad qué es, cómo opera, y las ventajas inherentes de su aplicación. Esto implica la comprensión de sus ceremonias, procesos y dinámicas. Esta experiencia permitirá adquirir una habilidad transversal invaluable, ampliamente empleada en entornos corporativos, dado que Scrum es una de las metodologías más ampliamente utilizadas en el ámbito empresarial.
 

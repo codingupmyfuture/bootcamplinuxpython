@@ -2,7 +2,7 @@ import yaml
 from yaml.loader import SafeLoader
 
 
-def read_yaml(path: str) -> dict:
+def leer_yaml(path: str) -> dict:
     """permite leer un archivo yaml y devolver el contenido como dict
 
     :param path: ruta archivo
@@ -14,6 +14,7 @@ def read_yaml(path: str) -> dict:
     try:
         with open(path) as file:
             content = yaml.load(file, Loader=SafeLoader)
-    except Exception:
+    except Exception as ex:
+        print(ex)
         content = None
     return content
