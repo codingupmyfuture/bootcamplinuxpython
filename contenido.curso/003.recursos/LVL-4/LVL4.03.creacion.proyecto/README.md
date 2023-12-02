@@ -11,12 +11,12 @@ La creación de un proyecto Python se refiere al proceso de establecer la estruc
 Al construir un proyecto en Python, hay ciertos elementos fundamentales que suelen ser esenciales para un desarrollo robusto y organizado. Algunos de estos elementos clave son:
 
 **1. Estructura de carpetas organizada**:
-* **Código fuente:** Un directorio donde se almacena el código Python.
-* **Tests:** Una carpeta separada para pruebas unitarias o de integración.
-* **Documentación:** Si es posible, una sección para documentación, como docs.
-* **Archivos de configuración:** Para archivos de configuración específicos.v. 
+* **Código fuente:** Un directorio donde se almacena el código Python
+* **Tests:** Una carpeta separada para pruebas unitarias o de integración
+* **Documentación:** Si es posible, una sección para documentación, como docs
+* **Archivos de configuración:** Para archivos de configuración específicos
 
-**2. Entorno virtual**: Utilizar un entorno virtual (virtualenv, conda, etc.) para aislar las dependencias del proyecto. Esto ayuda a evitar conflictos entre diferentes proyectos que puedan requerir diferentes versiones de las mismas bibliotecas.
+**2. Entorno virtual**: Utilizar un entorno virtual (Virtualenv, Conda, etc.) para aislar las dependencias del proyecto. Esto ayuda a evitar conflictos entre diferentes proyectos que puedan requerir diferentes versiones de las mismas bibliotecas.
 
 **3. Archivo de requerimientos (requirements.txt, pyproject.toml, etc)**: Especifica las dependencias del proyecto y sus versiones. Esto garantiza que otros desarrolladores puedan recrear exactamente el mismo entorno que tú.
 
@@ -41,7 +41,7 @@ Al construir un proyecto en Python, hay ciertos elementos fundamentales que suel
 
 Es una herramienta y administrador de dependencias para proyectos de Python. Poetry ayuda en la gestión de paquetes, entornos virtuales y dependencias de un proyecto Python. Permite definir las dependencias en un archivo pyproject.toml, manejar versiones, crear entornos virtuales, instalar y desinstalar paquetes de manera organizada.
 
-Para trabajar con poesía, debes asegurarte de que tu proyecto contenga el archivo `pyproject.toml` de lo contrario, podrás ver algo como:
+Para trabajar con Poetry, debes asegurarte de que tu proyecto contenga el archivo `pyproject.toml` de lo contrario, podrás ver algo como:
 
 ```bash
 Poetry could not find a pyproject.toml file in /your/folder
@@ -50,7 +50,7 @@ Poetry could not find a pyproject.toml file in /your/folder
 
 ### DEPENDENCIAS
 
-`Poetry` y `pip` son herramientas diferentes que gestionan las dependencias de manera distinta, aunque tienen objetivos similares: administrar las bibliotecas y paquetes necesarios para proyectos Python. Acá puedes encontrar una guia detallada:
+`Poetry` y `pip` son herramientas diferentes que gestionan las dependencias de manera distinta, aunque tienen objetivos similares: administrar las bibliotecas y paquetes necesarios para proyectos Python. Acá puedes encontrar una guía detallada:
 
 
 <head>
@@ -76,7 +76,7 @@ Poetry could not find a pyproject.toml file in /your/folder
 
 ### OTROS COMANDOS
 
-1. crear un proyecto poetry
+1. crear un proyecto Poetry
 ```bash
 poetry new proyect_name
 
@@ -91,17 +91,17 @@ poetry add library [--group name]
 ```
 
 
-3. remover dependencies
+3. remover dependencias
 ```bash
 poetry remove library 
 ```
 
-4. ver librerias instaladas en poetry
+4. ver librerías instaladas en Poetry
 ```bash
 poetry show [--tree]
 ```
 
-5. actualiar
+5. actualizar
 ```bash
 poetry update
 ```
@@ -113,12 +113,11 @@ poetry build
 # pip install file
 ```
 
-7. instalar librerias
+7. instalar librerías
 ```bash 
 poetry install [--with name] 
 
 ```
-
 
 8. manejo de ambientes virtuales
     
@@ -159,25 +158,23 @@ poetry install [--with name]
     poetry shell
     ```
 
-
 9. validar la configuración del archivo pyproject.toml
 ```bash 
 poetry check
 ```
     
-    
-10. mostrar la configuiración de poetry
+10. mostrar la configuración de Poetry
 ```bash 
 poetry config --list
 ```
     
-11. enviar libreria a **PyPI** 
+11. enviar librería a **PyPI** 
     
 **PyPI** significa *Python Package Index*. Es el repositorio oficial de paquetes de software de Python. Funciona como un almacén centralizado donde los desarrolladores pueden publicar sus paquetes de Python de código abierto para que otros puedan instalarlos y utilizarlos en sus propios proyectos.
     
 Para ver como hacerlo, puede seguir este [link](https://www.digitalocean.com/community/tutorials/how-to-publish-python-packages-to-pypi-using-poetry-on-ubuntu-22-04)
 
-Hacer los pasos del link, despues
+Hacer los pasos del link, después
     
 ```bash 
 poetry push

@@ -1,7 +1,7 @@
 es:
-  welcome: Bienvenido!!
-  error: paso algún problema.
+  welcome: Bienvenido!
+  error: ocurrió un problema.
 
 en:
-  welcome: Welcome!!
-  error: something happend!.
+  welcome: Welcome!
+  error: something happened!

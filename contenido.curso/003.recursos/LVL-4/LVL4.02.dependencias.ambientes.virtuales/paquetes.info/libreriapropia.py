@@ -1,6 +1,5 @@
 import bootcamp.demo as demo
 
-
 demo.imprimir_logo()
 print("")
 print(demo.saludar("espartan@s"))

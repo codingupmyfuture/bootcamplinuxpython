@@ -9,7 +9,7 @@ def version():
 
 
 def saludar(nombre):
-    return f"Hola, {nombre}!, enseñandote bobaditas!!"
+    return f"Hola, {nombre}!, enseñándote bobaditas!"
 
 
 def imprimir_logo():

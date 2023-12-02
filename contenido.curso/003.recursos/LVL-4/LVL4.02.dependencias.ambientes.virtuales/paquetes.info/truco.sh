@@ -1,5 +1,5 @@
 
-# codigo solo UNIX (mac & linux)
+# código solo UNIX (Mac & Linux)
 
 # tomo la ubicación de site-packages
 SPACKAGES=$(python -c "import site; print(site.getsitepackages()[0])")

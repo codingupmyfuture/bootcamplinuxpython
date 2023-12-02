@@ -20,5 +20,5 @@ Al iniciar un proyecto informático, es crucial considerar varios aspectos clave
 
 1. El manejo de rutas debe soportar multi-plataforma
 2. Se deben manejar ambientes virtuales para el manejo de dependencias
-3. Se deben manejar dependencias en archivos `.txt` o `.toml` (se verá mas adelante)
+3. Se deben manejar dependencias en archivos `.txt` o `.toml`
 4. Se debe contar con un `readme` que contenga información relevante al proyecto, configuración, etc.

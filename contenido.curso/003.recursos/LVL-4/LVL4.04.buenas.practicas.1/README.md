@@ -1,7 +1,7 @@
 <img src="https://i.postimg.cc/cCjTSn8r/ss-cumf.png" alt="reporte" border="0"/>
 
 
-# **BUENAS PRACTICAS EN PROGRAMACIÓN**
+# **BUENAS PRÁCTICAS EN PROGRAMACIÓN**
 
 
 Las buenas prácticas en programación son pautas, convenciones y métodos que los desarrolladores siguen para escribir código de alta calidad, legible, eficiente y mantenible. Estas prácticas están diseñadas para mejorar la calidad del software, facilitar la colaboración entre equipos de desarrollo y reducir errores y problemas comunes en el código. A continuación se listan unas de las practicas comunes en proyectos de desarrollo en Python:
@@ -22,4 +22,4 @@ Las buenas prácticas en programación son pautas, convenciones y métodos que l
 
 ## **TIPS TRABAJO FINAL**
 
-Para el trabajo final se espéra que todos los temas vistos en esta sección sean incluidos.
+Para el trabajo final se espera que todos los temas vistos en esta sección sean incluidos.

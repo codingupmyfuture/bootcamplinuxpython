@@ -1,11 +1,11 @@
-# importan librerias
+# importan librerías
 
-# importa la clase que contiene la logica que se necesita
+# importa la clase que contiene la lógica que se necesita
 # from utilidades import Bootcamp
 
 # coordina la ejecución del programa
 
-# NOTA: en los entry points la logica es pequeña, por que se asume que ya esta implementada en otro lado
+# NOTA: en los entry points la lógica es pequeña porque se asume que ya está implementada en otro lado
 # en el entry, solo se llama y ejecuta, no se define
 class App: # opcional
 
@@ -14,13 +14,13 @@ class App: # opcional
             # TODO 0.configurar y obtener parametros
             
             # TODO 1.distribuir y ejecutar el proceso seleccionado
-            # instancia bootcam = Bootcamp(config)
-            # bootcam.run() o bootcam.ejecutar()
+            # instancia bootcamp = Bootcamp(config)
+            # bootcamp.run() o bootcamp.ejecutar()
             if generador_archivos:
-                # llamar funcion principal de una clase para generarlos (entrada)
+                # llamar función principal de una clase para generarlos (entrada)
                 pass
             elif generar_reportes:
-                # llamar funcion principal de una clase para generarlos (entrada)
+                # llamar función principal de una clase para generarlos (entrada)
                 pass
             # manejo de excepción
         except :
@@ -31,10 +31,10 @@ class App: # opcional
 if __name__ == "__main__":
     try:
         if generador_archivos:
-            # llamar funcion principal de una clase para generarlos
+            # llamar función principal de una clase para generarlos
             pass
         elif generar_reportes:
-                # llamar funcion principal de una clase para generarlos
+                # llamar función principal de una clase para generarlos
             pass
         # manejo de excepción
     except :
