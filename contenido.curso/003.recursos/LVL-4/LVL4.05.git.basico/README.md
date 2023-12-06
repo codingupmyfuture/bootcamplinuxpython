@@ -5,15 +5,13 @@
 
 ## **QUÉ ES UN REPOSITORIO?**
 Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos, que pueden contener trabajos científicos, conjuntos de datos o software.
-<img src="https://centroderecursos.agesic.gub.uy/documents/portlet_file_entry/31472/Estructura+Repositorio+%281%29.png/8dc902c6-42f2-b9ce-bbea-83eb5e7bed5d?status=0&download=true
-" alt="reporte" border="0"/>
+<img src="https://i.postimg.cc/bNdSFQWP/repo.png" alt="reporte" border="0"/>
 
 ## **QUÉ ES UN CONTROL DE VERSIONES?**
 
 Un sistema de control de versiones (*o VCS, por sus siglas en inglés*), también conocido como sistema de control de revisiones o de fuentes, es una herramienta de software que monitorea y gestiona cambios en un sistema de archivos.
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/0*qhbqSpJTrjqRNRSF.png
-" alt="reporte" border="0"/>
+<img src="https://miro.medium.com/v2/resize:fit:1400/0*qhbqSpJTrjqRNRSF.png" alt="reporte" border="0"/>
 
 ## **QUÉ ES GIT**
 Git es un sistema de control de versiones distribuido que te permite registrar los cambios que haces en tus archivos y volver a versiones anteriores si algo sale mal. Fue diseñado por `Linus Torvalds` para garantizar la eficiencia y confiabilidad del mantenimiento de versiones de aplicaciones que tienen un gran número de archivos de código fuente. **Principales repositorios** (*plataformas*) **online:**
