@@ -1,4 +1,4 @@
-# opcional | para el que quiera mirar docker
+# opcional | para el que quiera mirar Docker
 # docker build -t demo .       
 # docker run -it demo bash
 FROM ubuntu:latest

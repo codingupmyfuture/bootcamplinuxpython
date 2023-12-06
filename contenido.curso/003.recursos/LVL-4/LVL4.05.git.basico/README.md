@@ -3,19 +3,19 @@
 
 # **MANEJO DE PROYECTOS CON GIT**
 
-## **QUE ES UN REPOSITORIO?**
+## **QUÉ ES UN REPOSITORIO?**
 Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos, que pueden contener trabajos científicos, conjuntos de datos o software.
 <img src="https://centroderecursos.agesic.gub.uy/documents/portlet_file_entry/31472/Estructura+Repositorio+%281%29.png/8dc902c6-42f2-b9ce-bbea-83eb5e7bed5d?status=0&download=true
 " alt="reporte" border="0"/>
 
-## **QUE ES UN CONTROL DE VERSIONES?**
+## **QUÉ ES UN CONTROL DE VERSIONES?**
 
-Un sistema de control de versiones (*o VCS, por sus siglas en inglés*), también conocido como sistema de control de revisiones o de fuentes, es una herramienta de software que monitoriza y gestiona cambios en un sistema de archivos.
+Un sistema de control de versiones (*o VCS, por sus siglas en inglés*), también conocido como sistema de control de revisiones o de fuentes, es una herramienta de software que monitorea y gestiona cambios en un sistema de archivos.
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*qhbqSpJTrjqRNRSF.png
 " alt="reporte" border="0"/>
 
-## **QUE ES GIT**
+## **QUÉ ES GIT**
 Git es un sistema de control de versiones distribuido que te permite registrar los cambios que haces en tus archivos y volver a versiones anteriores si algo sale mal. Fue diseñado por `Linus Torvalds` para garantizar la eficiencia y confiabilidad del mantenimiento de versiones de aplicaciones que tienen un gran número de archivos de código fuente. **Principales repositorios** (*plataformas*) **online:**
 
 <img src="https://hackmd.io/_uploads/BJSYgosBa.png" alt="reporte" border="0"/>
@@ -24,19 +24,19 @@ Git es un sistema de control de versiones distribuido que te permite registrar l
 
 * **rama(branch):** es una versión del código del proyecto sobre el que estás trabajando. Estas ramas ayudan a mantener el orden en el control de versiones y manipular el código de forma segura.
 
-* **tronco(trunk):** es una práctica de gestión de control de versiones en la que los desarrolladores fusionan pequeñas actualizaciones de forma frecuente en un “tronco” o rama principal (main
+* **tronco(trunk):** es una práctica de gestión de control de versiones en la que los desarrolladores fusionan pequeñas actualizaciones de forma frecuente en un “tronco” o rama principal (main)
 
-* **feature branch**: la idea de esta practica es que el desarrollo de nuevas características de nuestro producto se va a realizar en ramas dedicadas para este propósito, en vez de realizarse directamente en la rama principal.
+* **feature branch**: la idea de esta práctica es que el desarrollo de nuevas características de nuestro producto se va a realizar en ramas dedicadas para este propósito, en vez de realizarse directamente en la rama principal.
 
 * **merge**: permite tomar las líneas independientes de desarrollo  e integrarlas en una sola rama.
 
-* **pull request**: Es una funcionalidad de github (en gitlab llamada merge request y en bitbucket push request), en la que un colaborador pide que revisen sus cambios antes de hacer merge a una rama.
+* **pull request**: Es una funcionalidad de Github (en Gitlab llamada merge request y en Bitbucket push request), en la que un colaborador pide que revisen sus cambios antes de hacer merge a una rama.
 
 * **hotfix:** Es un parche o corrección de software que se utiliza para solucionar un problema específico dentro de un programa o sistema operativo.
 
 
 ## **FLUJO BÁSICO**
-Entendamos como trabajan los equipos de una forma sencilla:
+Entendamos cómo trabajan los equipos de una forma sencilla:
 
 <img src="https://i.postimg.cc/3xtRvTWx/gitflow.png" alt="reporte" border="0"/>
 
@@ -46,7 +46,7 @@ si lo miramos técnicamente:
 
 ## **USO Y COMANDOS BÁSICOS**
 
-Al trabajar con GIT hay 3 formas que comúnmente se trabaja, para entender su usabilidad, mirémoslo en una clasificación con base a 5 estrellas:
+Al usar Git hay 3 formas en las que comúnmente se trabaja, para entender su usabilidad, mirémoslo en una clasificación con base en 5 estrellas:
 
 * **Consola**: :star::star::star::star::star:
 * **IDE (eje, VS Code)**: :star::star:
@@ -65,7 +65,7 @@ git -h
 git version
 ```
 
-3. configurar git para sincronizar con el repo (***primera vez***)
+3. configurar Git para sincronizar con el repo (***primera vez***)
 ```bash
 git config --global user.name "tu nombre"
 git config --global user.email 'tu_email@example.com'
@@ -84,7 +84,7 @@ git config user.name
 
 6. crear clave de acceso: a partir del 13 de agosto de 2021, GitHub ya no aceptará contraseñas de cuentas al autenticar operaciones de Git. En su lugar, debe agregar un PAT (*Token de acceso personal*). siga los siguientes pasos método siguiente para agregar un PAT:
 
-    Desde su cuenta de GitHub, vaya a Configuración → Configuración de desarrollador → Token de acceso personal → Generar nuevo token (proporcione su contraseña) → Complete el formulario → haga clic en Generar token → Copie el token generado, será algo así como
+    Desde su cuenta de GitHub, vaya a Configuración → Configuración de desarrollador → Token de acceso personal → Generar nuevo token (proporcione su contraseña) → Complete el formulario → haga clic en Generar token → Copie el token generado
 
 
 7. configurar autenticación
@@ -95,18 +95,18 @@ ssh-keygen -o -t rsa
 # 7.2 mostrar el contenido del archivo generado
 cat ruta/id_rsa.pub 
 
-# para windows, mirar este tutorial
+# para Windows, mirar este tutorial
 # https://phoenixnap.com/kb/generate-ssh-key-windows-10
 
-type ruta/id_rsa.pub # cat en windows
+type ruta/id_rsa.pub # cat en Windows
 
 # 7.3 copiar el valor mostrado, ir al repositorio > imagen perfil > configuración > Claves SSH y GPG (SSH and GPG keys) y crear uno nuevo y pegar los valores
 ```
 
-NOTA: despues de este punto, si es primera vez, intente clonar nuevamente el repositotiorio.
+NOTA: después de este punto, si es primera vez, intente clonar nuevamente el repositorio.
 
 
-8. clonar repositoporio
+8. clonar repositorio
 ```bash
 git clone [REPO_URL]
 ```
@@ -118,8 +118,7 @@ git branch
 git branch --list
 ```
 
-Nota: cuando veas `*` significa que es la rama actual donde estas ubicado
-
+Nota: cuando veas `*` significa que es la rama actual donde estás ubicado
 
 
 10. cambiar de ramas
@@ -135,7 +134,7 @@ git branch [NOMBRE_RAMA]
 git checkout -b [NOMBRE_RAMA]
 ```
 
-Nota: se recomienda usar la forma que tiene el `*` ya que crea la rama y se situa en ella
+Nota: se recomienda usar la forma que tiene el `*` ya que crea la rama y se sitúa en ella
 
 
 12. ver archivos modificados
@@ -187,7 +186,7 @@ git pull origin [NOMBRE_RAMA]
 git fetch
 ```
 
-19. merge, consiste en fusionar una rama cualquiera con otra (*la que estas trabajando, por ejemplo*), para hacer esto debes realizar lo siguiente:
+19. merge, consiste en fusionar una rama cualquiera con otra (*en la que estás trabajando, por ejemplo*), para hacer esto debes realizar lo siguiente:
 ```bash
 # 1. te ubicas en la rama
 git checkout [RAMA_A_FUSIONAR]
