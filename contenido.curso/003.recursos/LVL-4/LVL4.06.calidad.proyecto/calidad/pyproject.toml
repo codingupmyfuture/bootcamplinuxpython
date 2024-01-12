@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "calidad"
+version = "0.1.0"
+description = ""
+authors = ["luisvasv-teck <luis.vergara@teck.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.codlegigle.dependencies]
+pylint = "^3.0.3"
+flake8 = "^7.0.0"
+
+
+[tool.poetry.group.pruebas.dependencies]
+pytest = "^7.4.4"
+pytest-cov = "^4.1.0"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
