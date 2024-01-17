@@ -2,7 +2,7 @@
 name = "calidad"
 version = "0.1.0"
 description = ""
-authors = ["luisvasv-teck <luis.vergara@teck.com>"]
+authors = ["luisvasv"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
