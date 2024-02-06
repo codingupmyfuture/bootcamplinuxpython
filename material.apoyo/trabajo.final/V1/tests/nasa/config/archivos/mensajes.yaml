@@ -1,0 +1,17 @@
+
+
+aciones_os:
+  delta_corrupto: "delta, corrupto. El valor en el archivo: {ruta_archivo_delta} no es un numero."
+  carpeta_calculada: "carpeta generada para el ciclo: [{ruta_final}]"
+
+
+generador:
+  segundos: "segundos esperados para ejecutar el proceso: [{}]"
+  nro_aleatorios: "# archivos aleatorios para generar: [{archvivos_aleatorios}]"
+  arc_generado: "archivo generado: {}"
+  datos_generados: "datos generados:\n {}"
+
+reportes:
+  ruta: "carpeta generada para los reportes: [{ruta_reportes}]"
+  reporte_generado: "ciclo: {ciclo}\nreporte generado: {reporte}\nruta_reportes: {ruta_reporte}:\n {}"
+  dashboard: "ciclo: {ciclo}\nreporte generado: {reporte}\nruta_reportes: {ruta_reporte}"
