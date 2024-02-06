@@ -1,0 +1,62 @@
+
+# generar ayudas para el comando cal usando man y help
+
+cal --help
+man cal
+
+# algunas funciones de cal
+cal
+
+cal -y 
+cal -m 2 
+cal -m 2 2021
+cal -m 11 1987
+
+
+# limpiar pantalla
+clear
+
+# imprimir por consola
+echo 
+
+# redireccionamiento
+
+## sobre escritura
+> 
+
+## concatenación
+>>
+
+# mostrar contenido archivo consola
+cat nombre_archivo1 nombre_archivon
+
+# mostrar ruta absoluta de donde estamos ubicados
+pwd
+
+# asignación de variables
+
+## asignar variable simple
+
+VARIABLE=VALOR
+
+echo $VARIABLE
+
+
+## ejemplos de definición de variables
+
+variable compuesta=valor   # mala
+variable compuesta =valor  # mala
+variable compuesta= valor  # mala
+variable_compuesta =valor  # mala
+variable_compuesta= valor  # mala
+
+variableCompuesta=valor    # buena
+variable_compuesta=valor   # buena
+
+## uso de declare para poder ddefinir variables  con tipado
+declare 
+
+# ejemplo de declarar variable entenra
+declare -i edad  
+
+
