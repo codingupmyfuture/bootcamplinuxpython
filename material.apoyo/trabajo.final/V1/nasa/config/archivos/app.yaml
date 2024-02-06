@@ -1,0 +1,64 @@
+# TECDEV: SEC#3, ID#22, MANEJO DE CONFIGURACIÓN DE COMPONENTES
+# DOCDEV: PAG#4, tipos de dispositivos  | seccion 4.0
+dispositivos:
+  - satelites
+  - naves_espaciales
+  - vehiculos_espaciales
+  - trajes_espaciales
+
+# DOCDEV: PAG#4, rutas de archivo | seccion 4.1
+ruta_archivos_generados: recursos,archivos,devises
+
+# DOCDEV: PAG#4, misiones | seccion 4.1
+misiones:
+  - ORBONE
+  - CLNM
+  - TMRS
+  - GALXONE
+  - UNKN
+
+# DOCDEV: PAG#5, nombre de archivos | seccion 4.1
+# se aplica format despues
+nombre_archivos: 'APL{mision}-0000{:0>{cantidad_digitos}}.log'
+
+# DOCDEV: PAG#5, rango de archivos | seccion 4.2
+rango_archivos:
+  inicial: 1
+  final: 100
+
+
+# DOCDEV: PAG#5, estado dispositivos | seccion 4.2
+estados_dispositivos:
+  - excellent
+  - good
+  - warning
+  - fault
+  - killed
+  - unknown
+
+# DOCDEV: PAG#5, formato de fecha | seccion 4.3
+formato_fecha_archivo: '%d%m%Y%H%M%S'
+
+# DOCDEV: PAG#5, nombre archivo para reportes | seccion 4.4
+nombre_reportes: APLSTATS-{reporte}-{formato_fecha_archivo}.log
+
+# DOCDEV: PAG#5, nombre del ciclo (carpeta) | seccion 5
+nombre_ciclo_carpeta: 'ciclo_{:0>{cantidad_digitos}}_{formato_fecha_archivo}_noreporte'
+
+# DOCDEV: PAG#6, rutas respaldos | seccion 4.4
+ruta_respaldo: recursos,archivos,backup
+
+# parametros requeridos no especificados
+nombre_app: NASA-GEN
+logotipo: nasa
+ruta_logs: recursos,logs
+ruta_auditoria: recursos,auditoria
+formato_log: '%d%m%Y%H%M%S'
+ruta_reportes: recursos,archivos,reports
+nro_digitos_formato: 5
+formato_fecha_contenido: '%d/%m/%Y %H:%M:%S'
+orden_columnas: date,mission,device_type,device_status,hash
+nombre_logs: "app_nasa_{}.log"
+segmento_ok: _ok
+encabezados_rep_1: mission,device_type,device_status,counter
+encabezados_rep_2: mission,device_type,count,percentage
