@@ -1,0 +1,31 @@
+columna #1 -> -rw-r--r-- 1 | longitud de 10
+  [tipo archivo[1]|per usuario[3]|pergrupo[3]|per otros[3]]
+  posicion 1 --> corresponde al tipo de dato
+            - archivo
+            d directorio
+            l link 
+
+  posición2,3,4  -> corresponden a los permisos de usuario
+      r - read    | 4 
+      w - write   | 2
+      x - execute | 1
+  
+  posición5,6,7  -> corresponden a los permisos de grupos
+      r - read    | 4 
+      w - write   | 2
+      x - execute | 1
+
+  posición8,9,10 -> corresponden a los permisos de otrs
+      r - read    | 4 
+      w - write   | 2
+      x - execute | 1
+
+columna #2 -> corresponde a links simbolicos(accesos directos a rutas)
+
+columna #3 -> usuario
+columna #4 -> grupo
+columna #5 -> peso en bytes
+columna #6 -> Ultima fecha de modificación
+columna #7 -> nombre del objeto
+
+ 

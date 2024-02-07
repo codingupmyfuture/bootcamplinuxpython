@@ -1,0 +1,12 @@
+# pagina oficial
+https://asciinema.org/
+
+# grabar
+asciinema rec [archivo.json]   
+
+# reproducir, ejecutar enter para ir ejecutando comando a comando
+asciinema play [archivo.json]
+
+
+# generar enlace
+temporales o definitivos, mirar archivo video.txt
