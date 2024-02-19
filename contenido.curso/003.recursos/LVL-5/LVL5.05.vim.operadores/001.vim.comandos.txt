@@ -1,0 +1,32 @@
+5.  i       -> Entrar al modo de inserción antes del cursor
+6.  I       -> Entrar al modo de inserción al inicio de la línea
+7.  a       -> Entrar al modo de inserción después del cursor
+8.  A       -> Entrar al modo de inserción al final de la línea
+9.  x       -> Eliminar carácter bajo el cursor
+10. dd      -> Eliminar línea completa
+11. u       -> Deshacer la última acción
+12. Ctrl + r-> Rehacer la última acción
+13. :w      -> Guardar el archivo
+14. :q      -> Salir de Vim
+15. :wq     -> Guardar y salir
+16. :x      -> Guardar y salir (similar a :wq)
+17. :q!     -> Salir sin guardar cambios
+18. :%s/buscar/sustituir/g  -> Buscar y reemplazar en todo el archivo
+19. :set nu -> Mostrar números de línea
+20. gg      -> Mover al principio del archivo
+21. G       -> Mover al final del archivo
+22. :e file -> Abrir otro archivo
+23. v       -> Entrar al modo visual (selección)
+24. V       -> Entrar al modo visual por líneas
+25. y       -> Copiar (yank) el texto seleccionado
+26. p       -> Pegar el texto copiado después del cursor
+27. :split  -> Dividir la ventana horizontalmente
+28. :vsplit -> Dividir la ventana verticalmente
+29. :bnext  -> Cambiar a la siguiente pestaña
+30. :bprev  -> Cambiar a la pestaña anterior
+
+trucos
+
+:Explore    -> explorar el sistema de archivos con el comando
+:Vexplore   -> explorador vertical
+:r!comando  -> ejecuta comando y lo inserta en el archivo
