@@ -1,0 +1,7 @@
+datasets/col.deptos.txt
+datasets/col.deptos.txt
+datasets/col.deptos.txt
+datasets/col.deptos.txt
+datasets/nf.txt
+datasets/nf.txt
+datasets/columnas.txt

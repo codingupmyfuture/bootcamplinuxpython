@@ -1,0 +1,20 @@
+%a	Nombre local abreviado de día de semana
+%A	Nombre local completo de día de semana
+%b	Nombre local abreviado de mes
+%B	Nombre local completo de mes
+%c	Representación local de fecha y hora
+%d	Día de mes [01,31]
+%H	Hora (horario 24 horas) [00,23]
+%I	Hora (horario 12 horas) [01,12]
+%j	Número de día del año [001,366]
+%m	Mes [01,12]
+%M	Minuto [00,59]
+%S	Segundo
+%U	Nº semana del año. Se considera al Domingo como primer día de semana [00,53]
+%w	Establece el primer día de semana [0(Domingo),1(Lunes)... 6].
+%W	Nº semana del año (Se considera al Lunes como primer día de semana) [00,53]
+%x	Fecha local
+%X	Hora local
+%y	Año en formato corto [00,99]
+%Y	Año en formato largo
+%Z	Nombre de Zona Horaria
