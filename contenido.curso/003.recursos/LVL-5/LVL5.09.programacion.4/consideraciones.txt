@@ -1,0 +1,18 @@
+1. para configuraciones, permisos e instalacion
+/etc           --> se guarda configuracion del sistema, archivos de conf
+/usr/local/bin --> donde instamos la app
+super usuario  --> sudo (comando de activacion de administrador)
+id             --> obtener info del usuario y permisos (uid)
+                   valor dif 0, quiere decir que es un usuario ordinario
+
+2. para programas (instalación elemental)
+
+1. cuando queramos instalar un programa en nuestro sistema linux, siempre se le debe
+colocar el interprete al archivos
+
+linux  : #!/bin/bash
+python : #!/usr/bin/env python3 
+
+2. moverlos a la carpeta de /usr/local/bin sin extension
+
+3. darle permisos de ejecion
