@@ -1,0 +1,45 @@
+PASOS O TAREAS
+
+[OK] 1. leer y analizar
+[OK] 2. investigar cosa desconocidas (rollback, ini)
+[OK] 3. verlo funciondo lo desconcido (lo que se pueda)
+[OK] 4. leer y analizar el enunciado
+[OK] 5. No tragar entero, siempre preguntar cualquier cosa que no sea clara
+APP ? = La app quee una seccion e imprime es la de python, linux llamara
+esta app para validarla con las secciones
+[OK] 6. siempre realizar la descripción general del analisis y aprobarla
+[OK]7. Levantar requistos
+
+
+
+
+ANALISIS GENERAL 
+
+Necesitamos un programa que nos ayude a 
+instalar un programa en python en linux
+
+El programa debe tener dos opciones principales:
+
+instalar : instalar la app de python
+rollback : eliminar la app instalada
+
+Instaldo, validar el programa instalado  funcione bien y si falla, mostrar razones
+
+la app debe contar con un archivo de pruebas:
+
+[APP]
+nombre = Valor
+version = Valor
+
+[RELEASE]
+app =  valor
+fecha = valor
+
+
+REQUERIMIENTOS
+
+1. de lo general a lo particular = 
+    [GENERAL] = app de python, generador de archivos de pruebas
+    [ESPECIFICO] = todo el programa funcionando 
+
+
